@@ -24,5 +24,5 @@ Feature: reserve_car
     Then verify Reservation created successfully pop up
     Examples:
       |username|password|car|pick_place|drop_place|pick_date|pick_time|drop_date|drop_time|card_number|name|expire_date|CVC|
-      |customer@bluerentalcars.com|12345|audi|London|London|0020220909|01:00PM|0020240707|08:00AM|1234123412341234|Ali Can|12/25|555|
+      |customer@bluerentalcars.com|12345|BMW Ix3 |New Hampshire Londonderry|New Hampshire Londonderry|0020230909|02:00PM|0020290808|08:00AM|1234123412341234|Ali Can|12/25|555|
 #

@@ -32,6 +32,8 @@ public class PaymentPage {
     @FindBy(xpath = "(//button[@type='submit'])[2]")
     public WebElement completeReservation2;
 
+    @FindBy(xpath ="//*[.='Reservation created successfully']")
+    public WebElement reservationSuccessfulMsgAlert;
 
 
 

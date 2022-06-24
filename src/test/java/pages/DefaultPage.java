@@ -8,7 +8,7 @@ import utilities.Driver;
 public class DefaultPage {
 
     //    After logged in
-    public DefaultPage(){
+    public DefaultPage() {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
@@ -45,6 +45,8 @@ public class DefaultPage {
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement continueReservationButton;
 
+    @FindBy(xpath ="//*[.='Reservation created successfully']")
+    public WebElement reservationSuccessfulMsgAlert;
 
 
 }

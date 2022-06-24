@@ -16,9 +16,10 @@ import org.junit.runner.RunWith;
             //    "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
         },
         features = "./src/test/resources/features",//path od features folder
-        glue = {"stepdefinitions", "hooks"},//path of the step definitions folder
-        tags = "@reserve_car",
-        dryRun = false
+        glue = {"stepdefinitions"},//path of the step definitions folder you have to add hook here i deleted
+        tags = "@db_customer_ssn",
+        dryRun = true
+
 )
 public class Runner {
 }
