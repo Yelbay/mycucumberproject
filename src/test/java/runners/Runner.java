@@ -13,11 +13,11 @@ import org.junit.runner.RunWith;
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml",
                 "rerun:target/failedRerun.txt",
-            //    "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
         },
         features = "./src/test/resources/features",//path od features folder
         glue = {"stepdefinitions"},//path of the step definitions folder you have to add hook here i deleted
-        tags = "@db_customer_ssn",
+        tags = "@db_customer",
         dryRun = true
 
 )
